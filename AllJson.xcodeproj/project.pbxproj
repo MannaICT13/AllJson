@@ -12,6 +12,7 @@
 		BE6779F522E5ADA300ED6B17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6779F322E5ADA300ED6B17 /* Main.storyboard */; };
 		BE6779F722E5ADA400ED6B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6779F622E5ADA400ED6B17 /* Assets.xcassets */; };
 		BE6779FA22E5ADA400ED6B17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6779F822E5ADA400ED6B17 /* LaunchScreen.storyboard */; };
+		BE677A0322E5AE0E00ED6B17 /* JsonDecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE677A0222E5AE0E00ED6B17 /* JsonDecorderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BE6779F622E5ADA400ED6B17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE6779F922E5ADA400ED6B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE6779FB22E5ADA400ED6B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE677A0222E5AE0E00ED6B17 /* JsonDecorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecorderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		BE6779E322E5ADA300ED6B17 = {
 			isa = PBXGroup;
 			children = (
+				BE677A0122E5ADB100ED6B17 /* JsonDecorder */,
 				BE6779EE22E5ADA300ED6B17 /* AllJson */,
 				BE6779ED22E5ADA300ED6B17 /* Products */,
 			);
@@ -62,6 +65,14 @@
 				BE6779FB22E5ADA400ED6B17 /* Info.plist */,
 			);
 			path = AllJson;
+			sourceTree = "<group>";
+		};
+		BE677A0122E5ADB100ED6B17 /* JsonDecorder */ = {
+			isa = PBXGroup;
+			children = (
+				BE677A0222E5AE0E00ED6B17 /* JsonDecorderViewController.swift */,
+			);
+			path = JsonDecorder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE677A0322E5AE0E00ED6B17 /* JsonDecorderViewController.swift in Sources */,
 				BE6779F222E5ADA300ED6B17 /* ViewController.swift in Sources */,
 				BE6779F022E5ADA300ED6B17 /* AppDelegate.swift in Sources */,
 			);

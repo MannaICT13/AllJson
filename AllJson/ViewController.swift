@@ -15,6 +15,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
+    
+    @IBAction func jsonSegue(_ sender: UIButton) {
+        performSegue(withIdentifier: "jsonSegue", sender: self)
+        
+    }
+    
+    
+    
+    
 
 }
 
